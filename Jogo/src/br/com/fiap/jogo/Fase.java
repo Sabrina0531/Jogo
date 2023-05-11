@@ -1,5 +1,7 @@
 package br.com.fiap.jogo;
 
-public class Fase {
+public interface Fase {
 
+	public int Mover(int x, int y);
+	public String Carregar(String nome);
 }
